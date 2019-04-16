@@ -1,0 +1,20 @@
+/**
+@mainpage Dokumentacja zadania telefony
+
+Struktura danych przechowująca przekierowania numerów. Obsługuje następujące operacje:
+
+- NEW identyfikator – jeśli baza przekierowań o podanej nazwie nie istnieje, to tworzy nową bazę o tej nazwie i ustawia ją jako aktualną, a jeśli baza o takiej nazwie już istniej, to tylko ustawia ją jako aktualną.
+
+- DEL identyfikator – usuwa bazę przekierowań o podanej nazwie.
+
+- numer > numer – dodaje przekierowanie numerów.
+
+- numer ? – wypisuje przekierowanie z podanego numeru.
+
+- ? numer – wypisuje przekierowania na podany numer.
+
+- DEL numer – usuwa wszystkie przekierowania, których numer jest prefiksem.
+
+- @ numer - wypisuje liczbę nietrywialnych numerów składających się z cyfr zawartych w podanym numerze.
+
+*/
